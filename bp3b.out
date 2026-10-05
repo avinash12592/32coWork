@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "D:\32co_work\__prb\bp3.py", line 4, in <module>
+    API=os.environ["API_BASE_URL"].rstrip("/")
+        ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 679, in __getitem__
+KeyError: 'API_BASE_URL'

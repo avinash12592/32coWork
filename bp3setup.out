@@ -1,0 +1,3 @@
+before: setupComplete= False treatmentCost= None
+PUT status: 200
+after: setupComplete= True treatmentCost= 950 practiceName= Avi Beta Practice

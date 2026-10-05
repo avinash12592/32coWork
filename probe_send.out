@@ -1,0 +1,7 @@
+AFTER LOGIN: https://app-beta.32co.com/dentist
+AFTER SWITCH: https://app-beta.32co.com/sleep/dentist
+SEND-LINK BUTTON present count: 1
+SEND FORM first-name field count: 1
+PRACTICE selection-items: 1 | text: Avi Beta Practice
+PRACTICE combo disabled/auto-locked: False
+NOTE: did NOT click Send — no email sent.

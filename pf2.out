@@ -1,0 +1,9 @@
+URL: https://app-beta.32co.com/sleep/practice
+CARDS before filter: 0
+filter present: 1
+OPTIONS: ['Unassigned', 'Avi Beta Dent', 'Avi Dent']
+after 'Avi Dent' -> label: Filtered by Avi Dent Filtered by Avi Dent
+CARDS after 'Avi Dent': 0
+after 'Avi Beta Dent' -> label: Filtered by Avi Beta Dent Filtered by Avi Beta Dent
+CARDS after 'Avi Beta Dent': 0
+clear-icon present: 1

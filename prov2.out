@@ -1,0 +1,31 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.3, pytest-8.3.4, pluggy-1.6.0
+rootdir: D:\32co_work\automation-ui
+configfile: pytest.ini
+plugins: allure-pytest-2.13.5, anyio-4.14.0, Faker-33.3.1, base-url-2.1.0, bdd-8.1.0, html-4.2.0, metadata-3.1.1, playwright-0.7.0, rerunfailures-15.0, xdist-3.6.1
+collected 1 item
+
+sleep\step_defs\dentist\test_sleep_review_email_cta.py RRF               [100%]Report successfully generated to reports\allure-report
+
+[allure] Dashboard opened: D:\32co_work\automation-ui\reports\allure-report\index.html
+
+
+================================== FAILURES ===================================
+_________ test_patient_completes_a_sleep_review_from_the_emailed_link _________
+.venv\Lib\site-packages\_pytest\fixtures.py:898: in call_fixture_func
+    fixture_result = fixturefunc(**kwargs)
+sleep\step_defs\dentist\test_sleep_review_email_cta.py:46: in _send
+    send_review_to_new_patient(sleep_send_review_page)
+sleep\sleep_review_journey.py:25: in send_review_to_new_patient
+    return send_review_page.send_review_to_patient()
+sleep\pages\dentist\sleep_send_review_page.py:194: in send_review_to_patient
+    expect(self.sent_confirmation).to_be_visible(timeout=self._CONFIRM_TIMEOUT_MS)
+E   AssertionError: Locator expected to be visible
+E   Actual value: <element(s) not found> 
+E   Call log:
+E     - LocatorAssertions.to_be_visible with timeout 20000ms
+E     -   - waiting for get_by_text("Sleep Review sent")
+------ generated xml file: D:\32co_work\automation-ui\reports\junit.xml -------
+=========================== short test summary info ===========================
+FAILED sleep/step_defs/dentist/test_sleep_review_email_cta.py::test_patient_completes_a_sleep_review_from_the_emailed_link
+=================== 1 failed, 2 rerun in 155.66s (0:02:35) ====================

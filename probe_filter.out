@@ -1,0 +1,8 @@
+[betaprac3 (Avi Beta Practice)] url: https://app-beta.32co.com/sleep/practice
+[betaprac3 (Avi Beta Practice)] filter present: 1
+[betaprac3 (Avi Beta Practice)] dropdown options (2): ['Unassigned', 'Avi Beta Dent']
+[betaprac3 (Avi Beta Practice)] >>> SLEEP-ENABLED DENTISTS: 1 -> ['Avi Beta Dent']
+[Avinash Practice] url: https://app-beta.32co.com/sleep/practice
+[Avinash Practice] filter present: 1
+[Avinash Practice] dropdown options (2): ['Unassigned', 'Avi Dent']
+[Avinash Practice] >>> SLEEP-ENABLED DENTISTS: 1 -> ['Avi Dent']
